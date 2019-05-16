@@ -1,0 +1,25 @@
+<form class="form-horizontal" method="POST" action="dates.php">
+                    <h3>Term 1 Dates</h3>
+                    <hr>
+                    
+					<div class="form-group">
+                        <label>Event Name</label>
+						<input type="text" class="form-control" name="event" placeholder="Event Name" required>
+					</div>
+					<div class="form-group">
+                        <label>Date</label>
+						<input type="date" class="form-control" name="date" placeholder="Date" required>
+					</div>
+					<div class="form-group">
+                        <label>Time</label>
+						<input type="time" class="form-control" name="time" placeholder="Time" required>
+					</div>
+					
+						
+					
+					
+					<div class="form-group">
+						<button type="submit" class="btn btn-success btn-lg btn-block m-b-30 m-t-30"  name="submit">Save</button>
+					</div>
+
+                </form>
